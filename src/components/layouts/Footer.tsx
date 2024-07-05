@@ -30,7 +30,9 @@ const Footer = () => {
               <Image alt="" src={phdImg} />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-4xl font-bold tracking-widest">SRIBOGA</h1>
+              <h1 className="text-xl md:text-4xl font-bold tracking-widest">
+                SRIBOGA
+              </h1>
               <h1 className="text-xs -tracking-tighter">
                 PIONEER IN FLOUR INNOVATION
               </h1>
@@ -39,9 +41,9 @@ const Footer = () => {
           <div className="grid">
             <h1 className="text-xl font-bold">Follow Us</h1>
             <div className="flex gap-x-4">
-              <FaInstagram className="h-10 w-10" />
-              <FaFacebook className="h-10 w-10" />
-              <FaXTwitter className="h-10 w-10" />
+              <FaInstagram className="h-5 md:h-10 w-5 md:w-10" />
+              <FaFacebook className="h-5 md:h-10 w-5 md:w-10" />
+              <FaXTwitter className="h-5 md:h-10 w-5 md:w-10" />
             </div>
           </div>
         </div>

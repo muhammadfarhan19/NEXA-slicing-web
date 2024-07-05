@@ -31,7 +31,7 @@ const useSidebarToggle = (): SidebarToggleContextType => {
   const context = useContext(SidebarToggleContext);
   if (!context) {
     throw new Error(
-      "useHSidebarToggle must be used within a HSidebarToggleProvider"
+      "useSidebarToggle must be used within a SidebarToggleProvider"
     );
   }
   return context;
