@@ -31,10 +31,13 @@ const ChatBox = () => {
         </div>
       </div>
       <div
-        className={`w-24 h-24 rounded-full grid place-items-center bg-blue-400 cursor-pointer`}
+        className={`w-16 md:w-24 h-16 md:h-24 rounded-full grid place-items-center bg-blue-400 cursor-pointer`}
         onClick={handleChatBox}
       >
-        <FaUserTie className="w-12 h-12 cursor-pointer" fill="white" />
+        <FaUserTie
+          className="w-8 md:w-12 h-8 md:h-12 cursor-pointer"
+          fill="white"
+        />
       </div>
     </div>
   );
