@@ -1,0 +1,19 @@
+import { navLinks } from "@/utils/common";
+import React from "react";
+
+const Navbar = () => {
+  
+  return (
+    <nav className="w-full py-3 hidden md:block">
+      <ul className="flex md:gap-x-5 lg:gap-x-14 items-center justify-center mx-auto">
+        {navLinks.map((e) => (
+          <li className="text-lg text-blue-600 cursor-pointer" key={e.name}>
+            {e.name}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
