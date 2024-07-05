@@ -7,10 +7,10 @@ const Header = () => {
   const { isOpen, toggleSidebarToggle } = useSidebarToggle();
 
   return (
-    <header className="w-full px-10 py-5 border-b fixed flex items-center justify-between md:px-0 md:justify-center bg-white">
+    <header className="w-full px-10 py-5 border-b fixed flex items-center justify-between xl:px-0 xl:justify-center bg-white">
       <h1 className="text-3xl font-bold">logo</h1>
       <button
-        className="md:hidden w-8 h-8 flex flex-col justify-around"
+        className="xl:hidden w-8 h-8 flex flex-col justify-around"
         onClick={toggleSidebarToggle}
       >
         <div className="rounded-full bg-black w-full h-1"></div>

@@ -38,8 +38,8 @@ const Sidebar = () => {
   ];
   return (
     <nav
-      className={`w-full fixed h-screen bg-white py-3 flex md:hidden border-r transition-all duration-100 ${
-        isOpen ? "translate-x-0" : "-translate-x-[800px]"
+      className={`w-full fixed h-screen bg-white py-3 flex xl:hidden border-r transition-all duration-100 ${
+        isOpen ? "translate-x-0" : "-translate-x-[1200px]"
       }`}
     >
       <ul className="flex flex-col justify-center gap-y-5 w-full">

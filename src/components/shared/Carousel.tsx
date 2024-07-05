@@ -5,17 +5,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const url: string = "https://i.ytimg.com/vi/qH3p_bcOOE4/maxresdefault.jpg";
 
-const Carousel = () => {
+function Carousel() {
   return (
     <>
-      <Swiper navigation={true} modules={[Navigation]}>
-        {/* {[...new Array(5)].map((e, i) => (
-        <SwiperSlide key={i}></SwiperSlide>
-        ))} */}
-        <SwiperSlide>a</SwiperSlide>
+      <Swiper>
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
       </Swiper>
     </>
   );
-};
+}
 
 export default Carousel;

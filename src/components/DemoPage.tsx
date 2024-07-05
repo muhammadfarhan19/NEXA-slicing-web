@@ -1,5 +1,7 @@
 import React from "react";
 import DemoCard from "./shared/DemoCard";
+import bread from "../../public/assets/bread.jpeg";
+
 
 const DemoPage = () => {
   return (
@@ -12,7 +14,7 @@ const DemoPage = () => {
         </aside>
         <div className="w-full grid grid-cols md:grid-cols-2 lg:grid-cols-4 gap-5">
           {[1, 2, 3, 4].map((e) => (
-            <DemoCard key={e} />
+            <DemoCard context='demo' image={bread} key={e} />
           ))}
         </div>
       </section>

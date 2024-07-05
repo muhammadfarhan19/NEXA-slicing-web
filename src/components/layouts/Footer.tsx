@@ -1,9 +1,10 @@
 import { navLinks } from "@/utils/common";
 import React from "react";
 import { PiPhoneCallFill } from "react-icons/pi";
-import { FaRegCopyright } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaRegCopyright } from "react-icons/fa";
 import Image from "next/image";
 import phdImg from "../../../public/assets/phd.png";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -17,19 +18,31 @@ const Footer = () => {
         <div className="flex gap-x-3">
           <PiPhoneCallFill className="h-full w-16" fill="white" />
           <div className="flex flex-col h-full">
-            <h1 className="text-xl font-bold">Customer Care</h1>
-            <h1 className="text-4xl font-bold">0-800-140-1109</h1>
+            <h1 className="text-lg md:text-xl font-bold">Customer Care</h1>
+            <h1 className="text-2xl md:text-4xl font-bold">0-800-140-1109</h1>
           </div>
         </div>
       </aside>
       <aside className="grid gap-y-5">
-        <div className="grid grid-cols gap-y-5">
-          <div className="w-20 h-20 overflow-hidden">
-            <Image alt="" src={phdImg} />
-            {/* <div className="flex flex-col border">
-              <h1>SRIBOGA</h1>
-              <h1>PIONEER IN FLOUR INNOVATION</h1>
-            </div> */}
+        <div className="flex flex-col gap-y-5">
+          <div className="flex items-center gap-x-3">
+            <div className="w-20 h-20 overflow-hidden">
+              <Image alt="" src={phdImg} />
+            </div>
+            <div className="flex flex-col">
+              <h1 className="text-4xl font-bold tracking-widest">SRIBOGA</h1>
+              <h1 className="text-xs -tracking-tighter">
+                PIONEER IN FLOUR INNOVATION
+              </h1>
+            </div>
+          </div>
+          <div className="grid">
+            <h1 className="text-xl font-bold">Follow Us</h1>
+            <div className="flex gap-x-4">
+              <FaInstagram className="h-10 w-10" />
+              <FaFacebook className="h-10 w-10" />
+              <FaXTwitter className="h-10 w-10" />
+            </div>
           </div>
         </div>
         <div className="flex gap-x-5">
