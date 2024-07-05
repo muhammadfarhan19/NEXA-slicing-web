@@ -26,7 +26,7 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/NEXA-slicing-web.git
+   git clone https://github.com/muhammadfarhan19/NEXA-slicing-web.git
    ```
 
 2. Navigate to the project directory:
